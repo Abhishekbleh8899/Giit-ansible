@@ -16,7 +16,22 @@
         owner: root
         group: root
         mode: 0644
-      
+- hosts: db_servers
+  become: true
+  tasks:
+    - name: install unzip 
+      package:
+        name: unzip
+        state: latest
+    - name: install terrafom
+      unarchive:
+        src: https://releases.hashicorp.com/terraform/1.12.1/terraform_1.12.1_linux_amd64.zip
+        dest: /usr/local/bin/
+        remote_src: yes
+        mode: 0755
+        owner: root
+        group: root
+
 - hosts: db_servers
   become: true
   tasks:
