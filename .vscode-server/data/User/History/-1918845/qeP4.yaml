@@ -1,0 +1,25 @@
+---
+- hosts: all
+  become: true
+  tasks:
+    - name: Install apache
+      package:
+        name: 
+        - "{{apache_package}}"
+        - "{{php_package}}"
+        state: latest
+        update_cache: yes
+    - name: copy index.html
+      copy:
+        src: index.html
+        dest: /var/www/html/index.html
+      copy:
+        src: index.php
+        dest: /var/www/html/index.php
+- hosts: db_servers
+  become: true
+  tasks:
+    - name: install maria dbservers
+      package: 
+        name: mariadb-server
+        state: latest

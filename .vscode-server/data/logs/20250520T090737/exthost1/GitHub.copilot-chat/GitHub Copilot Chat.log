@@ -1,0 +1,21 @@
+2025-05-20 09:07:43.479 [info] Can't use the Electron fetcher in this environment.
+2025-05-20 09:07:43.479 [info] Using the Node fetch fetcher.
+2025-05-20 09:07:43.479 [info] Initializing Git extension service.
+2025-05-20 09:07:43.479 [info] Successfully activated the vscode.git extension.
+2025-05-20 09:07:43.479 [info] Enablement state of the vscode.git extension: true.
+2025-05-20 09:07:43.479 [info] Successfully registered Git commit message provider.
+2025-05-20 09:07:45.501 [info] Logged in as Abhishekbleh8899
+2025-05-20 09:07:46.783 [info] Got Copilot token for Abhishekbleh8899
+2025-05-20 09:07:47.243 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-05-20 09:07:47.262 [info] Registering default platform agent...
+2025-05-20 09:07:47.500 [info] Successfully activated the GitHub.vscode-pull-request-github extension.
+2025-05-20 09:07:47.500 [info] [githubTitleAndDescriptionProvider] Initializing GitHub PR title and description provider provider.
+2025-05-20 09:07:47.500 [info] Successfully registered GitHub PR title and description provider.
+2025-05-20 09:07:47.500 [info] Successfully registered GitHub PR reviewer comments provider.
+2025-05-20 09:07:47.586 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-05-20 09:07:48.015 [info] Fetched model metadata in 1223ms c1767627-ea74-47f7-8aa1-005ef380d3c6
+2025-05-20 09:07:48.209 [info] activationBlocker from 'languageModelAccess' took for 4635ms
+2025-05-20 09:37:49.495 [info] Logged in as Abhishekbleh8899
+2025-05-20 09:37:50.619 [info] Got Copilot token for Abhishekbleh8899
+2025-05-20 09:37:50.909 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-05-20 09:37:50.997 [info] BYOK: Copilot Chat known models list fetched successfully.

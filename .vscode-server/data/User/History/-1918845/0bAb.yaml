@@ -1,0 +1,21 @@
+---
+- hosts: all
+  become: true
+  tasks:
+    - name: Install apache
+      ansible.builtin.apt:
+        name: apache2
+        state: present
+        update_cache: yes
+    - name: Start apache
+    - name: add php support to apache
+      ansible.builtin.apt:
+        name: libapache2-mod-php
+        state: present
+        
+      ansible.builtin.copy:
+        src: /home/ubuntu/index.html
+        dest: /var/www/html/index.html
+        owner: root
+        group: root
+        mode: '0644'

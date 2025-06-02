@@ -1,0 +1,19 @@
+---
+- hosts: all
+  become: true
+  tasks:
+    - name: Install apache
+      package:
+        name: 
+        - "{{apache_package}}"
+        - "{{php_package}}"
+        state: latest
+        update_cache: yes
+- hosts: dbservers
+  become: true
+  tasks:
+    - name: Install mysql server
+      package:
+        name: "{{mysql_package}}"
+        state: latest
+        update_cache: yes

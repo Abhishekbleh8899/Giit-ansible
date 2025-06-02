@@ -1,0 +1,59 @@
+---
+- hosts: all
+  become: true
+  tasks:
+    - name: Install apache
+      package:
+        name: 
+        - "{{apache_package}}"
+        - "{{php_package}}"
+        state: latest
+        update_cache: yes
+    - name: copy index.html
+      copy:
+        src: index.html
+        dest: /var/www/html/index.html
+        owner: root
+        group: root
+        mode: 0644
+- hosts: db_servers
+  become: true
+  tasks:
+    - name: install unzip 
+      package:
+        name: unzip
+        state: latest
+    - name: install terrafom
+      unarchive:
+        src: https://releases.hashicorp.com/terraform/1.12.1/terraform_1.12.1_linux_amd64.zip
+        dest: /usr/local/bin/
+        remote_src: yes
+        mode: 0755
+        owner: root
+        group: root
+- name: Create a Linux user with password-based login only
+  hosts: all
+  become: true 
+  vars:
+    user_name: "testuser"
+    user_password: "{{'abhishek@123' | password_hash('sha512') }}"
+  tasks:
+    - name: create user with password 
+      user:
+        name: "{{ user_name }}"
+        password: "{{ user_password }}"
+        shell: /bin/bash
+        create_home: yes
+    - name: add user to sudo group
+      user: 
+        name: "{{ user_name }}"
+        groups: sudo
+        append: yes
+    - name: 
+- hosts: db_servers
+  become: true
+  tasks:
+    - name: install maria dbservers
+      package: 
+        name: mariadb-server
+        state: latest

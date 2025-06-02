@@ -69,6 +69,8 @@
         state: restarted
 - hosts: db_servers
   become: true
+  roles:
+    - role: db_servers
   tasks:
     - name: install maria dbservers
       package: 

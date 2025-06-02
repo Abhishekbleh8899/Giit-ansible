@@ -1,0 +1,16 @@
+2025-05-22 08:19:02.231 [info] [certificates] Removed 3 expired certificates
+2025-05-22 08:19:03.177 [info] [fetcher] Using Helix fetcher, Electron fetcher is not available.
+2025-05-22 08:19:03.177 [info] [code-referencing] Public code references are enabled.
+2025-05-22 08:19:04.274 [info] [fetcher] Using Helix fetcher, Electron fetcher is not available.
+2025-05-22 08:20:00.414 [warning] [relatedFiles] unknown language yaml
+2025-05-22 08:20:01.034 [info] [fetchCompletions] Request 5e80baa6-d47b-45bc-829f-233c6a234708 at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 598.3469049999985ms
+2025-05-22 08:20:01.041 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-05-22 08:20:04.734 [info] [fetchCompletions] Request 7583b708-0143-423a-b5a7-6e08f6e87b7b at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 372.8780220000044ms
+2025-05-22 08:20:04.736 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-05-22 08:20:09.067 [info] [fetchCompletions] Request d77740f7-b648-4c7c-85ea-0206170d2afe at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 334.6258439999947ms
+2025-05-22 08:20:09.070 [info] [streamChoices] solution 0 returned. finish reason: [stop]
+2025-05-22 08:20:09.071 [info] [ghostText] Filtered out solution matching next line
+2025-05-22 08:20:09.110 [info] [ghostText] Filtered out solution matching next line
+2025-05-22 08:20:09.614 [info] [ghostText] Filtered out solution matching next line
+2025-05-22 08:20:10.324 [info] [fetchCompletions] Request ff091121-829e-429c-b94e-51c94138012b at <https://proxy.individual.githubcopilot.com/v1/engines/gpt-4o-copilot/completions> finished with 200 status after 352.2062739999965ms
+2025-05-22 08:20:10.328 [info] [streamChoices] solution 0 returned. finish reason: [stop]

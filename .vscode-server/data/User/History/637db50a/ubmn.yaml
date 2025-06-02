@@ -1,0 +1,5 @@
+- name: install maria dbservers
+  tags: db_servers
+  package: 
+   name: mariadb-server
+   state: latest

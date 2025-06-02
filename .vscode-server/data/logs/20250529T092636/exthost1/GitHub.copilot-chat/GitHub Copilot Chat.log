@@ -1,0 +1,42 @@
+2025-05-29 09:26:42.748 [info] Can't use the Electron fetcher in this environment.
+2025-05-29 09:26:42.748 [info] Using the Node fetch fetcher.
+2025-05-29 09:26:42.748 [info] Initializing Git extension service.
+2025-05-29 09:26:42.748 [info] Successfully activated the vscode.git extension.
+2025-05-29 09:26:42.748 [info] Enablement state of the vscode.git extension: true.
+2025-05-29 09:26:42.748 [info] Successfully registered Git commit message provider.
+2025-05-29 09:26:45.827 [info] Logged in as Abhishekbleh8899
+2025-05-29 09:26:48.453 [info] Got Copilot token for Abhishekbleh8899
+2025-05-29 09:26:49.088 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-05-29 09:26:49.107 [info] Registering default platform agent...
+2025-05-29 09:26:49.354 [info] Successfully activated the GitHub.vscode-pull-request-github extension.
+2025-05-29 09:26:49.354 [info] [githubTitleAndDescriptionProvider] Initializing GitHub PR title and description provider provider.
+2025-05-29 09:26:49.354 [info] Successfully registered GitHub PR title and description provider.
+2025-05-29 09:26:49.354 [info] Successfully registered GitHub PR reviewer comments provider.
+2025-05-29 09:26:49.393 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-05-29 09:26:49.593 [info] Fetched model metadata in 1130ms f1cb836e-f58f-4cc5-a5ac-bc30e9735624
+2025-05-29 09:26:49.786 [info] activationBlocker from 'languageModelAccess' took for 6965ms
+2025-05-29 09:41:51.865 [info] Fetched model metadata in 991ms 71b42cb6-8f81-4c67-8e71-441f48b6dc6b
+2025-05-29 09:59:16.456 [info] Logged in as Abhishekbleh8899
+2025-05-29 09:59:17.574 [info] Got Copilot token for Abhishekbleh8899
+2025-05-29 09:59:17.945 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-05-29 09:59:18.036 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-05-29 10:29:18.868 [info] Logged in as Abhishekbleh8899
+2025-05-29 10:29:20.095 [info] Got Copilot token for Abhishekbleh8899
+2025-05-29 10:29:20.433 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-05-29 10:29:20.513 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-05-29 10:59:21.251 [info] Logged in as Abhishekbleh8899
+2025-05-29 10:59:22.415 [info] Got Copilot token for Abhishekbleh8899
+2025-05-29 10:59:22.811 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-05-29 10:59:22.898 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-05-29 11:29:23.500 [info] Logged in as Abhishekbleh8899
+2025-05-29 11:29:24.716 [info] Got Copilot token for Abhishekbleh8899
+2025-05-29 11:29:25.085 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-05-29 11:29:25.172 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-05-29 12:12:39.999 [info] Logged in as Abhishekbleh8899
+2025-05-29 12:12:41.182 [info] Got Copilot token for Abhishekbleh8899
+2025-05-29 12:12:41.609 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-05-29 12:12:41.695 [info] BYOK: Copilot Chat known models list fetched successfully.
+2025-05-29 12:42:42.409 [info] Logged in as Abhishekbleh8899
+2025-05-29 12:42:43.571 [info] Got Copilot token for Abhishekbleh8899
+2025-05-29 12:42:43.906 [info] copilot token chat_enabled: true, sku: free_limited_copilot
+2025-05-29 12:42:44.001 [info] BYOK: Copilot Chat known models list fetched successfully.

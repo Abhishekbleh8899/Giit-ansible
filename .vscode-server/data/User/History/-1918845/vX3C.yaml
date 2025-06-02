@@ -1,0 +1,47 @@
+---
+- hosts: all
+  become: true
+  tasks:
+    - name: Install apache
+      package:
+        name: 
+        - "{{apache_package}}"
+        - "{{php_package}}"
+        state: latest
+        update_cache: yes
+    - name: copy index.html
+      copy:
+        src: index.html
+        dest: /var/www/html/index.html
+        owner: root
+        group: root
+        mode: 0644
+- hosts: db_servers
+  become: true
+  tasks:
+    - name: install unzip 
+      package:
+        name: unzip
+        state: latest
+    - name: install terrafom
+      unarchive:
+        src: https://releases.hashicorp.com/terraform/1.12.1/terraform_1.12.1_linux_amd64.zip
+        dest: /usr/local/bin/
+        remote_src: yes
+        mode: 0755
+        owner: root
+        group: root
+- hosts: all
+  become: true 
+  tasks:
+    - name: create user
+      user:
+        name: abhi
+        groups: root
+- hosts: db_servers
+  become: true
+  tasks:
+    - name: install maria dbservers
+      package: 
+        name: mariadb-server
+        state: latest

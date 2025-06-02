@@ -1,0 +1,50 @@
+2025-05-20 09:07:37.315 [info] 
+
+
+
+
+2025-05-20 09:07:37.328 [info] Extension host agent started.
+2025-05-20 09:07:37.366 [info] Started initializing default profile extensions in extensions installation folder. file:///home/ubuntu/.vscode-server/extensions
+2025-05-20 09:07:37.397 [info] ComputeTargetPlatform: linux-x64
+2025-05-20 09:07:37.402 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/ubuntu/.vscode-server/extensions
+2025-05-20 09:07:37.433 [info] [<unknown>][d41f7f31][ManagementConnection] New connection established.
+2025-05-20 09:07:37.471 [info] [<unknown>][4833051e][ExtensionHostConnection] New connection established.
+2025-05-20 09:07:37.559 [info] [<unknown>][4833051e][ExtensionHostConnection] <1394> Launched Extension Host Process.
+2025-05-20 09:07:38.700 [info] ComputeTargetPlatform: linux-x64
+2025-05-20 09:07:39.316 [info] Getting Manifest... github.copilot-chat
+2025-05-20 09:07:39.343 [info] Installing extension: github.copilot-chat {"installPreReleaseVersion":false,"donotIncludePackAndDependencies":true,"donotVerifySignature":false,"context":{"clientTargetPlatform":"win32-x64"},"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/ubuntu/.vscode-server/extensions/extensions.json","external":"file:///home/ubuntu/.vscode-server/extensions/extensions.json","path":"/home/ubuntu/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.100.1","date":"2025-05-09T15:43:50.040Z"}}
+2025-05-20 09:07:39.346 [info] Installing the extension without checking dependencies and pack github.copilot-chat
+2025-05-20 09:07:39.548 [info] Getting Manifest... github.vscode-pull-request-github
+2025-05-20 09:07:39.556 [info] Installing extension: github.vscode-pull-request-github {"installPreReleaseVersion":false,"donotIncludePackAndDependencies":true,"donotVerifySignature":false,"context":{"clientTargetPlatform":"win32-x64"},"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/ubuntu/.vscode-server/extensions/extensions.json","external":"file:///home/ubuntu/.vscode-server/extensions/extensions.json","path":"/home/ubuntu/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.100.1","date":"2025-05-09T15:43:50.040Z"}}
+2025-05-20 09:07:39.556 [info] Installing the extension without checking dependencies and pack github.vscode-pull-request-github
+2025-05-20 09:07:39.956 [info] Getting Manifest... github.copilot
+2025-05-20 09:07:39.966 [info] Installing extension: github.copilot {"installPreReleaseVersion":false,"donotIncludePackAndDependencies":true,"donotVerifySignature":false,"context":{"clientTargetPlatform":"win32-x64"},"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/ubuntu/.vscode-server/extensions/extensions.json","external":"file:///home/ubuntu/.vscode-server/extensions/extensions.json","path":"/home/ubuntu/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.100.1","date":"2025-05-09T15:43:50.040Z"}}
+2025-05-20 09:07:39.966 [info] Installing the extension without checking dependencies and pack github.copilot
+2025-05-20 09:07:41.561 [info] Extension signature verification result for github.vscode-pull-request-github: Success. Internal Code: 0. Executed: true. Duration: 1622ms.
+2025-05-20 09:07:41.566 [info] Extension signature verification result for github.copilot-chat: Success. Internal Code: 0. Executed: true. Duration: 1804ms.
+2025-05-20 09:07:41.903 [info] Extracted extension to file:///home/ubuntu/.vscode-server/extensions/github.vscode-pull-request-github-0.110.0: github.vscode-pull-request-github
+2025-05-20 09:07:41.939 [info] Renamed to /home/ubuntu/.vscode-server/extensions/github.vscode-pull-request-github-0.110.0
+2025-05-20 09:07:41.976 [info] Extension installed successfully: github.vscode-pull-request-github file:///home/ubuntu/.vscode-server/extensions/extensions.json
+2025-05-20 09:07:42.296 [info] Extracted extension to file:///home/ubuntu/.vscode-server/extensions/github.copilot-chat-0.27.1: github.copilot-chat
+2025-05-20 09:07:42.311 [info] Renamed to /home/ubuntu/.vscode-server/extensions/github.copilot-chat-0.27.1
+2025-05-20 09:07:42.359 [info] Extension installed successfully: github.copilot-chat file:///home/ubuntu/.vscode-server/extensions/extensions.json
+2025-05-20 09:07:42.741 [info] Extension signature verification result for github.copilot: Success. Internal Code: 0. Executed: true. Duration: 2121ms.
+2025-05-20 09:07:43.364 [info] Extracted extension to file:///home/ubuntu/.vscode-server/extensions/github.copilot-1.322.0: github.copilot
+2025-05-20 09:07:43.403 [info] Renamed to /home/ubuntu/.vscode-server/extensions/github.copilot-1.322.0
+2025-05-20 09:07:43.440 [info] Extension installed successfully: github.copilot file:///home/ubuntu/.vscode-server/extensions/extensions.json
+2025-05-20 09:12:37.330 [info] New EH opened, aborting shutdown
+2025-05-20 09:55:31.496 [info] [<unknown>][d41f7f31][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2025-05-20 09:55:31.563 [info] [<unknown>][4833051e][ExtensionHostConnection] <1394> Extension Host Process exited with code: 0, signal: null.
+2025-05-20 09:55:31.564 [info] Last EH closed, waiting before shutting down
+2025-05-20 09:55:34.078 [info] [<unknown>][3c39fe11][ManagementConnection] New connection established.
+2025-05-20 09:55:34.079 [info] [<unknown>][d4d990f0][ExtensionHostConnection] New connection established.
+2025-05-20 09:55:34.083 [info] [<unknown>][d4d990f0][ExtensionHostConnection] <4068> Launched Extension Host Process.
+2025-05-20 10:00:31.565 [info] New EH opened, aborting shutdown
+2025-05-20 10:00:31.567 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (file:///home/ubuntu/.vscode-server/cli/servers/Stable-91fa95bccb027ece6a968589bb1d662fa9c8e170/server/out/server-main.js:190:1060)
+    at process.emit (node:events:536:35)
+2025-05-20 13:13:31.044 [info] [<unknown>][3c39fe11][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2025-05-20 16:13:14.731 [info] [<unknown>][d4d990f0][ExtensionHostConnection] <4068> Extension Host Process exited with code: 0, signal: null.
+2025-05-20 16:13:14.732 [info] Last EH closed, waiting before shutting down
+2025-05-20 16:13:39.598 [info] [<unknown>][3c39fe11][ManagementConnection] The reconnection grace time of 3h has expired, so the connection will be disposed.
+2025-05-20 16:18:14.734 [info] Last EH closed, shutting down
