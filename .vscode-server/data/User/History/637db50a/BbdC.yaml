@@ -1,4 +1,0 @@
-- name: install maria dbservers
-  package: 
-   name: mariadb-server
-   state: latest

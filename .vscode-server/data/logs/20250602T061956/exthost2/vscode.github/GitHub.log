@@ -1,2 +1,0 @@
-2025-06-02 12:53:31.431 [info] Log level: Info
-2025-06-02 13:07:41.331 [warning] [GitHubSourceControlHistoryItemDetailsProvider][_getCommitAuthor] Failed to get commit author for Abhishekbleh8899/Giit-ansible/98097052ecc0811b51186ebc701571be684d862f: TypeError: Cannot read properties of null (reading 'author')

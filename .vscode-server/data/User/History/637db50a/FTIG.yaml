@@ -1,5 +1,0 @@
-- name: install maria dbservers
-  tags: db_servers,ubuntu,mariadb
-  package: 
-   name: mariadb-server
-   state: latest
