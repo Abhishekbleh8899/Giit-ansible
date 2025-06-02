@@ -5,6 +5,7 @@
       - "{{ php_package }}"
     state: latest
     update_cache: yes
+  notify: Restart Apache
 
 - name: Copy index.html
   copy:
