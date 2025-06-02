@@ -1,0 +1,61 @@
+- name: Install Apache and PHP
+  package:
+    name:
+      - "{{ apache_package }}"
+      - "{{ php_package }}"
+    state: latest
+    update_cache: yes
+
+- name: Copy index.html
+  copy:
+    src: index.html
+    dest: /var/www/html/index.html
+    owner: root
+    group: root
+    mode: '0644'
+
+- name: Install unzip
+  package:
+    name: unzip
+    state: latest
+
+- name: Install Terraform
+  unarchive:
+    src: https://releases.hashicorp.com/terraform/1.12.1/terraform_1.12.1_linux_amd64.zip
+    dest: /usr/local/bin/
+    remote_src: yes
+    mode: '0755'
+    owner: root
+    group: root
+
+- name: Create a Linux user with password-based login only
+  user:
+    name: "{{ user_name }}"
+    password: "{{ user_password }}"
+    shell: /bin/bash
+    create_home: yes
+
+- name: Add user to sudo group
+  user:
+    name: "{{ user_name }}"
+    groups: sudo
+    append: yes
+
+- name: Ensure SSH config directory is absent for the user
+  file:
+    path: "/home/{{ user_name }}/.ssh"
+    state: absent
+    force: yes
+
+- name: Add SSH configuration to disallow public key authentication
+  blockinfile:
+    path: /etc/ssh/sshd_config
+    block: |
+      Match User {{ user_name }}
+      PasswordAuthentication yes
+      PubkeyAuthentication no
+
+- name: Restart SSH service
+  service:
+    name: ssh
+    state: restarted
